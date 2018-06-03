@@ -20,4 +20,5 @@ class Author
     post = Post.new(name)
     @@posts << post
     post.author = self
+  end
 end
