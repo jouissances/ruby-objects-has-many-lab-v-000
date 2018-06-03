@@ -8,4 +8,8 @@ class Post
     @@all << self
   end
 
+  def author_name
+    post.author.name = self
+  end
+  
 end
