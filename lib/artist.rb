@@ -14,9 +14,7 @@ class Artist
   def add_song(song)
     song = Song.new(name)
     song.artist = self
-    
-    # adele.add_song(hello)
-    # hello.artist = 
+    @@song << song
   end
   
 end
