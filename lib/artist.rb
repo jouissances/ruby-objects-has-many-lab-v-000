@@ -16,6 +16,7 @@ class Artist
     song.artist = self
     
     # adele.add_song(hello)
+    # hello.artist = 
   end
   
 end
