@@ -15,7 +15,7 @@ class Artist
     song = Song.new(name)
     song.artist = self
     
-    # hello.artist 
+    # adele.add_song(hello)
   end
   
 end
