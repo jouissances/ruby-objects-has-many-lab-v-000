@@ -26,4 +26,8 @@ class Author
     @@posts.length
   end
   
+  def author_name
+    post.author.name = self
+  end
+  
 end
